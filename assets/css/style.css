@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0;
+}
+
+.body--blocks {
+  padding: 50px;
+  background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #aedfff 25px, #b6ffc2 50px) fixed;
+}
+
+.body--menu {
+  padding: 50px;
+  background: repeating-radial-gradient(circle farthest-side at 30px 20px, #fff, #fff 25px, #aaff99 25px, #f8ff99 50px) fixed;
+}
+
 .cinema-background {
   position: fixed;
   top: 0;
@@ -18,14 +36,10 @@
   height: auto;
 }
 
-.body--blocks {
-  background: repeating-linear-gradient(-45deg, #fff, #fff 25px, #aedfff 25px, #b6ffc2 50px) fixed;
-}
-
 .container {
   height: 200px;
   background-color: #cccccc;
-  border: 3px solid #000000;
+  outline: 3px solid #000000;
   float: left;
   margin: 0 30px 60px 0;
   position: relative;
@@ -101,10 +115,6 @@
   height: calc(100% - 60px);
 }
 
-.body--menu {
-  background: repeating-radial-gradient(circle farthest-side at 30px 20px, #fff, #fff 25px, #aaff99 25px, #f8ff99 50px) fixed;
-}
-
 .menu {
   padding: 0;
   display: flex;
@@ -147,12 +157,12 @@
   margin: 0 auto;
 }
 
-.item__container--figcaption {
+.item__figcaption {
   padding: 20px;
   background-color: darkred;
 }
 
-.item__container--figcaption a {
+.item__link {
   font-size: 25px;
   color: white;
 }
@@ -161,15 +171,15 @@
   outline: 1px solid black;
 }
 
-.item__container:hover > figcaption {
+.item__container:hover .item__figcaption {
   background-color: yellow;
 }
 
-.item__container:hover > figcaption a {
+.item__container:hover .item__link {
   color: black;
 }
 
-.item__container--image {
+.item__image {
   width: 75%;
   padding: 20px;
 }
