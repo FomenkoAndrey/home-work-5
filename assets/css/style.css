@@ -152,34 +152,34 @@
   font-weight: bolder;
 }
 
-.item__container {
+.menu__item-container {
   text-align: center;
   margin: 0 auto;
 }
 
-.item__figcaption {
+.menu__item-figcaption {
   padding: 20px;
   background-color: darkred;
 }
 
-.item__link {
+.menu__item-link {
   font-size: 25px;
   color: white;
 }
 
-.item__container:hover {
+.menu__item-container:hover {
   outline: 1px solid black;
 }
 
-.item__container:hover .item__figcaption {
+.menu__item-container:hover .menu__item-figcaption {
   background-color: yellow;
 }
 
-.item__container:hover .item__link {
+.menu__item-container:hover .menu__item-link {
   color: black;
 }
 
-.item__image {
+.menu__item-image {
   width: 75%;
   padding: 20px;
 }
