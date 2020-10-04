@@ -196,6 +196,10 @@
 }
 
 @keyframes background {
-  from {background: rgb(127, 255, 0, 0);}
-  to {background: rgb(127, 255, 0, 1);}
+  from {
+    background: rgba(127, 255, 0, 0);
+  }
+  to {
+    background: rgba(127, 255, 0, 1);
+  }
 }
